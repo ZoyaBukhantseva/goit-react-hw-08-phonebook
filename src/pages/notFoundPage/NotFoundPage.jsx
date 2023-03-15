@@ -1,6 +1,6 @@
 import { Box, Heading } from "@chakra-ui/react";
 import { NotAllowedIcon } from '@chakra-ui/icons'
-import bg from '../../source/pngtree-phone-book-icon-design-vector-png-image_5330586.png';
+import bg from '../../source/808737528.jpg';
 
 const NotFound = () => {
     return(
@@ -14,7 +14,7 @@ const NotFound = () => {
         </Heading>
         <Box position={ "relative" } zIndex = { 2 } alignItems = { 'center' }
         display={ 'flex' } justifyContent={ 'center' } flexDirection = { "column" } mt = { 100 }>
-        <NotAllowedIcon h={200} w={200}  color = 'lightcoral'   position={ "relative" } zIndex = { 2 }/>
+        <NotAllowedIcon h={200} w={200}  color = '#BEE3F8'   position={ "relative" } zIndex = { 2 }/>
         </Box>
         </>
     );

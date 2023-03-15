@@ -18,10 +18,10 @@ const Filter = ( ) => {
         <Box 
         backgroundColor={ 'Window' }
         p={ '5' } ml = {'auto'} mr = {'auto'} mt = { 0 }  h={ 50 } display={ 'flex' } flexDirection={ 'column' }
-        alignItems = { 'center' } justifyContent = { 'center' }  borderRadius = { 20 }>
+        alignItems = { 'center' } justifyContent = { 'center' }  borderRadius = { 15 }>
         <FormControl>
-        <FormLabel color={ 'InfoText' } fontSize={ 15 } fontWeight={ 700 }>Find contacts by name
-          <Input bgColor={ 'chakra-subtle-bg' } shadow={ 'inner' } mt = { 2 } h = { 7 }
+        <FormLabel color={ 'InfoText' }  fontSize={ 15 } textAlign={'center'} fontWeight={ 700 }>Find contacts by name
+          <Input bgColor={ '#BEE3F8' } shadow={ 'inner' } mt = { 2 } h = { 7 }
              onChange={ hendleChange } 
              value={ filterState }
              type="text"

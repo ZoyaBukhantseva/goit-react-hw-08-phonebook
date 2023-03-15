@@ -4,7 +4,7 @@
 
 .formwrap{
   margin-left: 30px;
-  border: 2px solid #230258;
+  border: 2px solid #0BC5EA;
   border-radius: 5px;
   padding: 10px;
   width: 300px;
@@ -13,9 +13,9 @@
   display: block;
   min-width: 280px;
   height: 30px;
-  border: #230258 solid 1px;
+  border: #0BC5EA solid 1px;
   border-radius: 4px;
-  background-color: #23025886;
+  background-color: #C4F1F9;
 }
 .input::placeholder{
 color: #fff;
@@ -28,7 +28,7 @@ font-family: 'Courier New', Courier, monospace;
   margin: 20px 100px 0px 100px;
   display: inline-block;
   color: #fff;
-  background-color: #230258;
+  background-color: #0BC5EA;
   border-radius: 5px;
   border: transparent;
   cursor: pointer;
@@ -36,7 +36,7 @@ font-family: 'Courier New', Courier, monospace;
 .header{
   margin: 10px 10px 10px 80px;
   font-size: 44px;
-  color: #230258;
+  color: #0BC5EA;
 }
 .wrapper{
  display: flex; 
@@ -45,6 +45,6 @@ font-family: 'Courier New', Courier, monospace;
 
 .contacts{
   width: 50%;
-  border: #230258 solid 2px;
+  border: #0BC5EA solid 2px;
   border-radius: 4px;
 }

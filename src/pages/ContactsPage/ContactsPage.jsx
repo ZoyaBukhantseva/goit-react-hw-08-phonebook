@@ -1,7 +1,7 @@
 import ContactList from "..//..//components/ContactsList/ContactsList";
 import ContactForm from "..//..//components/ContactForm/ContactForm";
 import Filter from "..//..//components/Filter/Filter";
-import bg from '..//..//source/pngtree-memphis-note-ripped-paper-notebook-background-picture-image_1739025.jpg';
+import bg from '..//..//source/808737528.jpg';
 import Loading from "..//..//components/Loading/Loading";
 
 import { Box, Heading } from "@chakra-ui/react";

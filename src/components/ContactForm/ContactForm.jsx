@@ -23,10 +23,10 @@ const ContactForm = () => {
           backgroundColor={ 'Window' }
           shadow={ 'dark-lg' }
           p={ '10' } ml = {'auto'} mr = {'auto'} mb = { 5 } w={ 330 } h={ 180 } display={ 'flex' } flexDirection={ 'column' }
-          alignItems = { 'center' } justifyContent = { 'center' }  borderRadius = { 20 }>
+          alignItems = { 'center' } justifyContent = { 'center' }  borderRadius = { 15 }>
             <FormControl>
                <FormLabel color={ 'InfoText' } fontSize={ 15 } fontWeight={ 700 }>Name
-                    <Input bgColor={ 'chakra-subtle-bg' } shadow={ 'inner' } mt = { 2 } h = { 7 }
+                    <Input bgColor={ '#BEE3F8' } shadow={ 'inner' } mt = { 2 } h = { 7 }
                       type="text"
                       name="name"
                       pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
@@ -35,7 +35,7 @@ const ContactForm = () => {
                     </Input>
                 </FormLabel>
                 <FormLabel color={ 'InfoText' } fontSize={ 15 } fontWeight={ 700 }>Number
-                    <Input bgColor={ 'chakra-subtle-bg' } shadow={ 'inner' } mt = { 2 } h = { 7 }
+                    <Input bgColor={ '#BEE3F8' } shadow={ 'inner' } mt = { 2 } h = { 7 }
                       type="tel"
                       name="number"
                       pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
@@ -44,7 +44,7 @@ const ContactForm = () => {
                     />
                 </FormLabel>
                 </FormControl>
-                <Button color={ 'ButtonText' } w ={ 130 } h = { 8 } padding = { 2 } mt = { 5 } mb = {2} type="submit">Add contact</Button>
+                <Button bgColor={"#086F83"} color={ 'ButtonText' } w ={ 130 } h = { 8 } padding = { 2 } mt = { 5 } mb = {2} type="submit">Add contact</Button>
                 </Box>
             </form>
     );
